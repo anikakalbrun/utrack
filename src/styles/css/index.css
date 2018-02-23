@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
+.m-b-20 {
+  margin-bottom: 20px;
+}
+
+.width100 {
+  width: 100%
+}
+
+.empty {
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tableContainer {
+  min-height: 600px;
+}
+
+@media only screen and (max-width: 800px) {
+  .filter.p-50 {
+    padding: 20px 15px;
+  }
+  .empty {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DiscountCostLineChart renders Legend and two LegendItem components 1`] = `
+Array [
+  <Legend>
+    <LegendItem
+        color="rgba(151,187,205,1)"
+        label="Monthly"
+    />
+    <LegendItem
+        color="rgba(220,220,220,1)"
+        label="Cumulative"
+    />
+</Legend>,
+  undefined,
+]
+`;
+
+exports[`DiscountCostLineChart renders LineChart when data prop is passed 1`] = `
+Array [
+  <Legend>
+    <LegendItem
+        color="rgba(151,187,205,1)"
+        label="Monthly"
+    />
+    <LegendItem
+        color="rgba(220,220,220,1)"
+        label="Cumulative"
+    />
+</Legend>,
+  <LineChart
+    data={
+        Object {
+            "datasets": Array [],
+            "labels": Array [
+              "January",
+              "February",
+            ],
+          }
+    }
+    options={
+        Object {
+            "bezierCurve": false,
+            "maintainAspectRatio": false,
+            "pointDot": true,
+            "pointDotRadius": 4,
+            "pointDotStrokeWidth": 2,
+            "pointHitDetectionRadius": 10,
+            "responsive": true,
+          }
+    }
+    redraw={true}
+/>,
+]
+`;

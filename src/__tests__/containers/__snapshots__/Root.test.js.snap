@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Root renders a Row with DiscountCostLineChart 1`] = `
+<DiscountCostLineChart
+  data={Object {}}
+/>
+`;
+
+exports[`Root renders a Row with InputRange, SelectRegion, SelectGender 1`] = `
+Array [
+  <RangeInput
+    setSpendFilter={[Function]}
+    value={200}
+/>,
+  <SelectRegion
+    setRegionFilter={[Function]}
+    value="Europe"
+/>,
+  <SelectGender
+    setGenderFilter={[Function]}
+    value="Female"
+/>,
+]
+`;
+
+exports[`Root renders a Row with UserTable 1`] = `
+<UserTable
+  data={Array []}
+/>
+`;

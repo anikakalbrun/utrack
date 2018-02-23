@@ -1,0 +1,22 @@
+.legend {
+    text-align: center;
+    font-size: 14px;
+}
+
+.legend-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+.legend-text, .legend-box {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.legend-box {
+    width: 40px;
+    height: 14px;
+}
+
+.h-300 {
+    height: 300px
+}

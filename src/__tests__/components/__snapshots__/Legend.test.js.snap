@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Legend renders correctly 1`] = `
+<div
+  className="legend"
+>
+  <span>
+    test
+  </span>
+</div>
+`;

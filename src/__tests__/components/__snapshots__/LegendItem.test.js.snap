@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LegendItem renders correctly 1`] = `
+<div
+  className="legend-item"
+>
+  <div
+    className="legend-box"
+    style={
+      Object {
+        "backgroundColor": "red",
+      }
+    }
+  />
+  <div
+    className="legend-text"
+  >
+    Cumulative
+  </div>
+</div>
+`;

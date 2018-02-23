@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RangeInput passes proper props to the first button 1`] = `
+Object {
+  "btnClass": "btn-light",
+  "disabled": false,
+  "handleClick": [Function],
+  "text": "Male",
+  "type": "button",
+}
+`;
+
+exports[`RangeInput passes proper props to the second button 1`] = `
+Object {
+  "btnClass": "btn-light",
+  "disabled": false,
+  "handleClick": [Function],
+  "text": "Female",
+  "type": "button",
+}
+`;
+
+exports[`RangeInput passes proper props to the third button 1`] = `
+Object {
+  "btnClass": "btn-success",
+  "disabled": true,
+  "handleClick": [Function],
+  "text": "All",
+  "type": "button",
+}
+`;

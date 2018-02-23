@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTable passes to the Table a columns property 1`] = `
+Array [
+  Object {
+    "dataIndex": "id",
+    "key": "id",
+    "title": "User Id",
+  },
+  Object {
+    "dataIndex": "birthday",
+    "key": "birthday",
+    "title": "Birthday",
+  },
+  Object {
+    "dataIndex": "spend",
+    "key": "spend",
+    "title": "Spend",
+  },
+  Object {
+    "dataIndex": "region",
+    "key": "region",
+    "title": "Region",
+  },
+  Object {
+    "dataIndex": "gender",
+    "key": "gender",
+    "title": "Gender",
+  },
+]
+`;
+
+exports[`UserTable renders correctly a wrapper div 1`] = `
+Array [
+  Object {
+    "dataIndex": "id",
+    "key": "id",
+    "title": "User Id",
+  },
+  Object {
+    "dataIndex": "birthday",
+    "key": "birthday",
+    "title": "Birthday",
+  },
+  Object {
+    "dataIndex": "spend",
+    "key": "spend",
+    "title": "Spend",
+  },
+  Object {
+    "dataIndex": "region",
+    "key": "region",
+    "title": "Region",
+  },
+  Object {
+    "dataIndex": "gender",
+    "key": "gender",
+    "title": "Gender",
+  },
+]
+`;
