@@ -17,6 +17,12 @@ To run this project
 $ npm run start
 ``` 
 
+Before you run tests you may want to disable watch mode
+```bash
+$ export CI=true // unix
+$ set CI=true // windows
+``` 
+
 To run tests
 ```bash
 $ npm run test
